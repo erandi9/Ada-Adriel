@@ -141,6 +141,7 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
+  padding-bottom: 7px;
 }
 @media (min-width: 1200px) {
   h4, .h4 {
@@ -7963,13 +7964,13 @@ textarea.form-control-lg {
 
 .text-black-50 {
   --bs-text-opacity: 1;
-  color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .text-white-50 {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.5) !important;
   font-size: larger;
+  text-align: justify;
 }
 
 .text-reset {
